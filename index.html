@@ -133,7 +133,8 @@
 				</section>
 
 				<section>
-					<section>
+
+					<section data-transition="fade">
 						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 800 600">
 						<defs>
 							<clipPath id="cbia-mask" transform="translate(-75, -25)">
@@ -153,40 +154,90 @@
 					</svg>
 					</section>
 
-					<section>
+					<section data-transition="fade">
 						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 800 600">
-						<g clip-path="url(#cbia-mask)">
-							<g transform="translate(75, -75)">
-								<image xlink:href="images/mysi_jadro.jpg" height="650px" width="650px">
-									<animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 325 325" to="360 325 325" begin="0s" dur="60s" repeatCount="indefinite"/>
-								</image>
+							<g clip-path="url(#cbia-mask)">
+								<g transform="translate(75, -75)">
+									<image xlink:href="images/mysi_jadro.jpg" height="650px" width="650px">
+										<animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 325 325" to="360 325 325" begin="0s" dur="60s" repeatCount="indefinite"/>
+									</image>
+								</g>
 							</g>
-						</g>
-					</svg>
+						</svg>
 					</section>
 
-					<section>
+					<section data-transition="fade">
 						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 800 600">
-						<g clip-path="url(#cbia-mask)">
-							<g transform="translate(0, -125)">
-								<image xlink:href="images/ruzove.png" height="800px" width="800px">
-									<animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 400 400" to="360 400 400" begin="0s" dur="60s" repeatCount="indefinite"/>
-								</image>
+							<g clip-path="url(#cbia-mask)">
+								<g transform="translate(0, -125)">
+									<image xlink:href="images/ruzove.png" height="800px" width="800px">
+										<animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 400 400" to="360 400 400" begin="0s" dur="60s" repeatCount="indefinite"/>
+									</image>
+								</g>
 							</g>
-						</g>
-					</svg>
+						</svg>
 					</section>
+
 				</section>
 
 				<section>
-					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 800 600">
-					<g clip-path="url(#cbia-mask)">
-						<g transform="translate(0, -125)">
-							<image xlink:href="images/cells.gif" height="800px" width="800px">
-							</image>
-						</g>
-					</g>
-				</svg>
+
+					<section data-transition="fade" data-background="#222">
+						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 800 600">
+							<defs>
+								<filter id="matrix-invert">
+									<feColorMatrix in="SourceGraphic" type="matrix" values="
+										-1 0 0 0 1
+										0 -1 0 0 1
+										0 0 -1 0 1
+										0 0 0 1 0"/>
+								</filter>
+							</defs>
+							<g clip-path="url(#cbia-mask)">
+								<g transform="translate(75, -75)">
+									<image xlink:href="images/tkan.png" filter="url(#matrix-invert)" height="650px" width="650px">
+										<animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 325 325" to="360 325 325" begin="0s" dur="60s" repeatCount="indefinite"/>
+									</image>
+								</g>
+							</g>
+						</svg>
+					</section>
+
+					<section data-transition="fade" data-background="#222">
+						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 800 600">
+							<g clip-path="url(#cbia-mask)">
+								<g transform="translate(-200, -125)">
+									<image xlink:href="images/white_cells.jpg" height="800px" width="1200px">
+										<animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0 600 400" to="360 600 400" begin="0s" dur="60s" repeatCount="indefinite"/>
+									</image>
+								</g>
+							</g>
+						</svg>
+					</section>
+
+				</section>
+
+				<section>
+					<section data-transition="fade">
+						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 800 600">
+							<g clip-path="url(#cbia-mask)">
+								<g transform="translate(0, -125)">
+									<image xlink:href="images/cells.gif" height="800px" width="800px">
+									</image>
+								</g>
+							</g>
+						</svg>
+					</section>
+					<section data-transition="fade" data-background="#222">
+						<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 800 600">
+							<g clip-path="url(#cbia-mask)">
+								<g transform="translate(0, -125)">
+									<image xlink:href="images/cells.gif" filter="url(#matrix-invert)" height="800px" width="800px">
+									</image>
+								</g>
+							</g>
+						</svg>
+					</section>
 				</section>
 
 				<section>
